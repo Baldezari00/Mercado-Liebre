@@ -1,0 +1,375 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background-color: #fbbc02;
+}
+
+header{
+    background-color: #fbbc02;
+    object-fit: contain;
+    /* display: flex; */
+    
+    
+}
+
+
+#img{
+    padding-left: 4%;
+    padding-top: 3%;
+     
+}
+
+
+#banner{
+    border-radius: 10px;
+}
+.banner-responsive{
+    display: none;
+}
+                                /* ICONOS  */
+.bxs-home-smile{
+    color: rgb(220, 43, 226);
+}
+.bxs-user-account{
+    color: rgb(0, 255, 76);
+}
+.bxs-user{
+    color: blue;
+}
+
+
+#iconos{
+    display: flex;
+    
+    
+    object-fit: contain;
+   
+   
+    
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: flex-end;
+  
+    
+}
+#primerA{
+   padding-right: 2%;
+  padding-top: 5%;
+    
+}
+
+
+#segunA{
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    padding: 10px;
+    object-fit: contain;
+   
+   
+}
+#segunA:hover{
+    font-size: 110%;
+} 
+#tercerA{
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    padding: 10px;
+    object-fit: contain;
+}
+#tercerA:hover{
+    font-size: 110%;
+} 
+
+                                 /* productos destacados */
+
+
+
+
+  .productos{
+    object-fit: contain;
+        padding: 20px;
+border: 1px solid black;
+border-radius: 20px;
+float: left;
+margin: 17px;
+background-color: white;
+
+
+        }
+
+  
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: rgb(129, 123, 123);
+    border-radius:20px;
+}
+.btn22{
+    object-fit: contain;
+    position: relative;
+    
+    display: flex;
+    left: 60px;
+    font-size: 105%;
+    margin-top: 20px;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    
+    
+}
+
+.btn22:hover{
+     font-size: 110%;
+     background-color: red;
+}
+
+.btn11:hover{
+    font-size: 110%;
+    background-color: red;
+}
+
+#titulo2{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 40px;
+    background-color: aqua;
+    border-radius:20px;
+  
+}
+
+
+.btn11{
+    display: flex;
+    object-fit: contain;
+    position: relative;
+    left: 80px;
+    font-size: 105%;
+    margin-top: 20px;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+
+#pd{
+    border: 2px solid red;
+    background-color: white;
+
+
+   
+}
+#pd1{
+    border: 2px solid red;
+    background-color: white;
+    
+}
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+                            /* titulo de los productos */
+  .p{
+    position: relative;
+    left: 50px;
+    font-size: 110%;
+  }
+  .p0{
+    position: relative;
+    left: 25px;
+   font-size: 110%;
+    
+  }
+ #ploko{
+    left: 10px;
+ }
+                                            /* carousel */
+.w-100{
+    width: 520px !important;
+    height: 500px;
+    object-fit: contain;
+    position: relative;
+    left: 25%;
+    
+ 
+ }
+
+ 
+ #carouselExampleControls{
+    object-fit: contain;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    left: 10%;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+ }
+ .carousel-control-prev{
+   background-color: black;
+   border-radius: 20px;
+   
+ }
+
+ .carousel-control-next{
+    background-color: black;
+    border-radius: 20px;
+    
+  }
+  .carousel-control-next, .carousel-control-prev{
+    width: 5%;
+  }
+ 
+
+ 
+                            /* REGISTRO MODAL */
+ 
+
+#all{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    top: 30px;
+    left: 65px;
+    font-size: 140%;
+    background-color: yellow;
+    height: 540px;
+    width: 90%;
+    
+}
+
+                         /* editando el formulario */
+                     
+h1{
+    object-fit: contain;
+    
+    font-size: 190%;
+    color: black;
+}
+
+.btn00{
+    display: flex;
+     justify-content: center;
+     object-fit: contain;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     transition-duration: .2s;
+     transition-timing-function: ease-in;
+     font-size: 99%;
+   
+}
+#btn00{
+    border: 1px dashed rgb(255, 9, 9);
+}
+.btn00:hover{
+    font-size: 110%;
+    color: red;
+}
+
+#email1{
+    object-fit: contain;
+    /* position: relative;
+    left: 59px; */
+    font-size: 103%;
+}
+#nombre{
+    object-fit: contain;
+    position: relative;
+    /* left: 30px; */
+    font-size: 103%;
+    
+}
+#password1{
+    font-size: 103%;
+}
+.inputss{
+    margin-top: 20px;
+}
+
+.modal {
+    --bs-modal-width: 100%;
+}
+#logo{
+object-fit: contain;
+}
+.botones{
+    object-fit: contain;
+    display: flex;
+   flex-direction: column;
+   
+   align-items: flex-end;
+ 
+    
+ padding-right: 3%;
+ margin: 0.3%;
+ position: relative;
+
+
+}
+#ingresa{
+ position: relative;
+ right: 5.5%;
+}
+
+#tp{
+    padding-left: 6%;
+    padding-top: 1%;
+    font-size: 115%;
+ }  
+.responsive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#all{
+   width: 90%;
+ 
+
+}
+
+                                /* sistema de grillas  */
+ .row{
+      
+       --bs-gutter-x: 0%;
+     }
+.col{
+    object-fit: contain;
+  
+    padding: 0%;
+
+    
+}
+.conteiner{
+    object-fit: contain;
+    
+    
+}
+                                            /* FOOTER */
+footer{
+    margin-top: 2%;
+}
+.footer{
+    border-right: 1px solid black;
+  
+   background-color: white;
+   padding: 10px;
+   width: 100%;
+ 
+}
+.footer-email{
+    padding: 10px;
+  
+}
+#tcn{
+   margin-bottom: 35px;
+}
+i{
+    color: red;
+}

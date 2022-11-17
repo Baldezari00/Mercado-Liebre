@@ -1,0 +1,425 @@
+/*                                   RESPONSIVE
+                    HEADER                                                */
+
+/* escritorios grandes */
+@media(min-width: 1200px){
+      /* resgitro modal */
+      #all{
+        font-size: 110%;
+        left: 25px;
+        
+    }
+    .modal-footer{
+        position: relative;
+       right: 10%;
+    }
+    #email1{
+        display: flex;
+        flex-direction: row;
+    }
+    #nombre{
+        display: flex;
+        flex-direction: row;
+    }
+    #password1{
+        display: flex;
+        flex-direction: row;
+    }
+    #logo img{
+        width: 60%;
+    }
+    #logo{
+        position: relative;
+        bottom: 5%;
+        left: 20%;
+    }
+    body form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .inputss{
+        font-size: 130%;
+       
+    }
+    .btn00{
+        font-size: 110%;
+    }
+    .btn00:hover{
+        font-size: 120%;
+        color: red;
+    }
+    #form-h1{
+        position: relative;
+        top: 40%;
+    }
+
+}
+
+/* Tablets en horizontal y escritorios normales */
+@media (min-width: 768px) and (max-width: 1199px){
+                                        /* resgitro modal */
+                                        #all{
+                                            font-size: 110%;
+                                            left: 25px;
+                                            
+                                        }
+                                        .modal-footer{
+                                            position: relative;
+                                           right: 10%;
+                                        }
+                                        #email1{
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                        #nombre{
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                        #password1{
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                        #logo img{
+                                            width: 60%;
+                                        }
+                                        #logo{
+                                            position: relative;
+                                            bottom: 5%;
+                                            left: 20%;
+                                        }
+                                        body form{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            flex-direction: column;
+                                        }
+                                        .inputss{
+                                            font-size: 130%;
+                                           
+                                        }
+                                        .btn00{
+                                            font-size: 110%;
+                                        }
+                                        .btn00:hover{
+                                            font-size: 120%;
+                                            color: red;
+                                        }
+                                        #form-h1{
+                                            position: relative;
+                                            top: 40%;
+                                        }
+
+ 
+}
+
+/* moviles en horizontal o tablets en vertical */
+@media (max-width: 767px) {
+                                          /* HEADER */
+                                          #primerA{
+                                            width: 100%;
+                                           padding: 0%;
+                                           margin: 22px 0px 0px 0px;
+                                           display: flex;
+
+                                           
+                                           justify-content: center;
+                                        }
+                                        #iconos{
+                                            align-items: center;
+                                        }
+                                        #img{
+                                            display: flex;
+                                          
+                                            justify-content: center;
+                                            padding-left: 0%;
+                                            position: relative;
+                                            bottom: 8%;
+                                            padding-right: 10%;
+                                        }
+                                        .botones{
+                                            align-items: center;
+                                            margin: 15px 0px 0px 0px;
+                                            padding: 0%;
+                                        }
+                                        .btn{
+                                           font-size: 15px;
+                                          margin-top: 2%;
+                                    
+                                       }
+                                       #tp{
+                                        padding-left: 1%;
+                                        padding-top: 15%;
+                                        font-size: 75%;
+                                        margin-top: 0%;
+
+                                       }
+                                       #row-bottom-tp{
+                                       font-size: 115%;
+                                       }
+
+                                       #ingresa{
+                                        
+                                        left: 28%;
+                                        bottom: 35%;
+                                        padding-top: 20%;
+                                       }
+                                       .bottom-ingresa{
+                                        font-size: 40%;
+                                       }
+                                       .bxs-user{
+                                        font-size: 200%;
+                                       }
+                                    
+                                                                                /* banner */
+                                        .banner-responsive{
+                                           display: block;
+                                           position: relative;
+                                           bottom: 20px;
+                                        }
+                                        #banner{
+                                            display: none;
+                                        }
+                                    
+                                                                                /* productos */
+                                        .prod{
+                                            width: 50%;
+                                            align-items: none;
+                                            
+                                        }
+                                        .productos{
+                                           
+                                            width: 80%;
+                                        }
+                                        #img0{
+                                            width: 100%;
+                                        }
+                                        #img1{
+                                            width: 100%;
+                                        }
+                                        #img2{
+                                            width: 100%;
+                                        }
+                                        #img3{
+                                            width: 100%;
+                                        }
+                                        .btn22 {
+                                            left: 6px;
+                                            border-radius: 12%;
+                                        }
+                                        .p0{
+                                            left: 18px;
+                                        }
+                                    
+                                                                            /* PRODUCTOS DESTACADOS */
+                                        .img-pd{
+                                            width: 100%;
+                                        }
+                                        .btn11{
+                                            left: 85px;
+                                            border-radius: 12%;
+                                        }
+                                        .p{
+                                            left: 25px;
+                                        }
+                                    
+                                                                                /* CAROUSEL */
+                                        #carouselExampleControls{
+                                           height: 50%;
+                                        }
+                                        .w-100{
+                                            width: 100% !important;
+                                            height: auto;
+                                            position: static;
+                                        }
+                                          /* resgitro modal */
+                                          #all{
+                                            font-size: 110%;
+                                            left: 25px;
+                                            
+                                        }
+                                        .modal-footer{
+                                            position: relative;
+                                           right: 10%;
+                                        }
+                                        #email1{
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                        #nombre{
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                        #password1{
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                        #logo img{
+                                            width: 60%;
+                                        }
+                                        #logo{
+                                            position: relative;
+                                            bottom: 30%;
+                                            left: 20%;
+                                        }
+                                        body form{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            flex-direction: column;
+                                        }
+}
+
+/* moviles en vertical */
+@media (max-width: 480px) {
+                                        /* HEADER */
+    #primerA{
+        width: 70%;
+       padding: 0%;
+       margin: 5px 0px 0px 0px;
+       display: flex;
+       
+       justify-content: center;
+    }
+    #iconos{
+        align-items: center;
+    }
+    #img{
+        display: flex;
+      
+        justify-content: center;
+        padding-left: 0%;
+        position: relative;
+        bottom: 8%;
+    }
+    .botones{
+        align-items: center;
+        margin: 5px 0px 0px 0px;
+        padding: 0%;
+    }
+    .btn{
+       font-size: 13px;
+      
+
+   }
+   #tp{
+    padding-left: 1%;
+    padding-top: 4%;
+    font-size: 75%;
+    margin-top: 0%;
+   }
+   #ingresa{
+    
+    left: 28%;
+    bottom: 52%;
+    padding-top: 14%;
+   }
+   .bottom-ingresa{
+    font-size: 40%;
+   }
+   .bxs-user{
+    font-size: 200%;
+   }
+
+                                            /* banner */
+    .banner-responsive{
+       display: block;
+       position: relative;
+       bottom: 20px;
+    }
+    #banner{
+        display: none;
+    }
+
+                                            /* productos */
+    .prod{
+        width: 50%;
+        
+    }
+    .productos{
+       
+        width: 80%;
+    }
+    #img0{
+        width: 100%;
+    }
+    #img1{
+        width: 100%;
+    }
+    #img2{
+        width: 100%;
+    }
+    #img3{
+        width: 100%;
+    }
+    .btn22 {
+        left: 23px;
+        border-radius: 15%;
+    }
+    .p0{
+        left: 18px;
+    }
+
+                                        /* PRODUCTOS DESTACADOS */
+    .img-pd{
+        width: 100%;
+    }
+    .btn11{
+        left: 23px;
+        border-radius: 15%;
+    }
+    .p{
+        left: 25px;
+    }
+
+                                            /* CAROUSEL */
+    #carouselExampleControls{
+       height: 50%;
+    }
+    .w-100{
+        width: 100% !important;
+        height: auto;
+        position: static;
+    }
+
+
+
+                                             /* resgitro modal */
+                                             #all{
+                                                font-size: 110%;
+                                                left: 25px;
+                                                
+                                            }
+                                            .modal-footer{
+                                                position: relative;
+                                               right: 10%;
+                                            }
+                                            #email1{
+                                                display: flex;
+                                                flex-direction: row;
+                                            }
+                                            #nombre{
+                                                display: flex;
+                                                flex-direction: row;
+                                            }
+                                            #password1{
+                                                display: flex;
+                                                flex-direction: row;
+                                            }
+                                            #logo img{
+                                                width: 80%;
+                                            }
+                                            #logo{
+                                                position: relative;
+                                                bottom: 30%;
+                                                left: 10%;
+                                            }
+                                            body form{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                            }
+                                       
+}
